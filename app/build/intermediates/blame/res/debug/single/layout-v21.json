@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

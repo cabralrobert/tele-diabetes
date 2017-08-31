@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/background.jpg",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/background.jpg"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/usernotphoto.jpeg",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/usernotphoto.jpeg"
+    }
+]

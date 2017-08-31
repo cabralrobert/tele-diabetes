@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_61779357baa24255a2cb9d88ab9b405558c205a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/robertcabral/.android/build-cache/0a6830443e40d72ceda50bf316f33248fc37381f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/pre-dexed/debug/classes_eb2b6b7ec41aee9b1288973c8822de31cf677a5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/robertcabral/.android/build-cache/7a3ea85afb478eb6a7037fe0b041bfbd5160a67f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3dbaff65d26258306561d545f88d6712ac41dd46">
+        <dex dex="/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/pre-dexed/debug/classes_a568afe57053193b816d02a4a538309840be7c56.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dd8efe0965febc1a4b3bacc75eaa28869699a238">
+        <dex dex="/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_819fc53419b758ce9eabbaa67850f210d2225f81/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/robertcabral/.android/build-cache/e1cbcae9d699d40630968dc5d5dd8e63606462e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ba4defc8cb4ed5b90b8ef71602722cdeebe507cd">
+        <dex dex="/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/pre-dexed/debug/classes_39f21ad7acde029e864f076adc06d37ba79ebe36.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,306 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:8:22-63
+application
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:10:5-49:19
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b0f53cb3c5e4a0ed7df7db2d15592e93104b5bdd/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/robertcabral/.android/build-cache/cd8c555f71a0486d866a5fa83efe6cc637038892/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth:10.2.6] /home/robertcabral/.android/build-cache/aeb0759b9c29287a03bde719ec49d002da2f3823/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.jjoe64:graphview:4.2.1] /home/robertcabral/.android/build-cache/44c68ce9ae748d5704c935fceb86c8f073c9cde1/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/robertcabral/.android/build-cache/1e7cf1c62d6716e0c0418bf435dedf39ae85e519/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0a4f71fd613ef88847ecda31fbe859d7f3213ddf/output/AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/robertcabral/.android/build-cache/0a6830443e40d72ceda50bf316f33248fc37381f/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.6] /home/robertcabral/.android/build-cache/e4e9130deff5edce1a342d22f5959334fdd64d8b/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.6] /home/robertcabral/.android/build-cache/019da288a3387299a1342e6bac41bd2db6c59dce/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] /home/robertcabral/.android/build-cache/1aad137d15049ca9f7e020d89d6d39a5ee100f2a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] /home/robertcabral/.android/build-cache/1acefb1a8b476959ca0d22979fe9da16d5f32185/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/robertcabral/.android/build-cache/cf3cd05ef3aab1b8108638a7d3ed09d2fe2554df/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0807646e83eb37f54a425c3fa9f229ae41742c92/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/robertcabral/.android/build-cache/7fb423aa7dbc3d4b75dc672db82ebc3267fc93fa/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/robertcabral/.android/build-cache/1e30a55d2fa3943204b8081f0c2244f7b020ca1f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e11e3dda8e3d16785e55c8c2f35ebfc249530db2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/robertcabral/.android/build-cache/8a62694cc54da990f67437f6f7a794fdd68198b3/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:13:9-38
+	android:supportsRtl
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:16:9-40
+activity#br.ufc.tele_diabetes.activitys.LoginActivity
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:theme
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:19:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:24:27-74
+service#br.ufc.tele_diabetes.utils.TestService
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:28:9-76
+	android:enabled
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:28:52-74
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:28:18-51
+receiver#br.ufc.tele_diabetes.utils.BootCompletedIntentReceiver
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:30:9-37:20
+	android:enabled
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:31:19-41
+	android:exported
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:32:19-42
+	android:permission
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:33:19-81
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:30:19-68
+intent-filter#BootCompletedIntentReceiver
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:34:13-36:29
+action#BootCompletedIntentReceiver
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:35:25-67
+activity#br.ufc.tele_diabetes.activitys.CadastroActivity
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:39:9-64
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:39:19-61
+activity#br.ufc.tele_diabetes.activitys.UserInformationsActivity
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:40:9-72
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:40:19-69
+activity#br.ufc.tele_diabetes.activitys.EditProfileActivity
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:41:9-67
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:41:19-64
+activity#br.ufc.tele_diabetes.activitys.SettingsActivity
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:42:9-44:63
+	android:label
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:44:13-60
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:43:13-55
+activity#br.ufc.tele_diabetes.activitys.UserActivity
+ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:45:9-48:68
+	android:label
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:47:13-56
+	android:theme
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:46:13-51
+uses-sdk
+INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b0f53cb3c5e4a0ed7df7db2d15592e93104b5bdd/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/6b33429f5f8b013a92b6d9d05145e914e6891616/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/robertcabral/.android/build-cache/cd8c555f71a0486d866a5fa83efe6cc637038892/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:10.2.6] /home/robertcabral/.android/build-cache/aeb0759b9c29287a03bde719ec49d002da2f3823/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.6] /home/robertcabral/.android/build-cache/5fe49d46bbb222fd7ef50e152714af813e7c367d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.6] /home/robertcabral/.android/build-cache/b4cf189708f2427316824cb90f238b31f3038860/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.6] /home/robertcabral/.android/build-cache/e1cbcae9d699d40630968dc5d5dd8e63606462e0/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.6] /home/robertcabral/.android/build-cache/7a3ea85afb478eb6a7037fe0b041bfbd5160a67f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.jjoe64:graphview:4.2.1] /home/robertcabral/.android/build-cache/44c68ce9ae748d5704c935fceb86c8f073c9cde1/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/robertcabral/.android/build-cache/1e7cf1c62d6716e0c0418bf435dedf39ae85e519/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0a4f71fd613ef88847ecda31fbe859d7f3213ddf/output/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/robertcabral/.android/build-cache/0a6830443e40d72ceda50bf316f33248fc37381f/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:10.2.6] /home/robertcabral/.android/build-cache/e4e9130deff5edce1a342d22f5959334fdd64d8b/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.6] /home/robertcabral/.android/build-cache/019da288a3387299a1342e6bac41bd2db6c59dce/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] /home/robertcabral/.android/build-cache/1aad137d15049ca9f7e020d89d6d39a5ee100f2a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] /home/robertcabral/.android/build-cache/1acefb1a8b476959ca0d22979fe9da16d5f32185/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/robertcabral/.android/build-cache/cf3cd05ef3aab1b8108638a7d3ed09d2fe2554df/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0807646e83eb37f54a425c3fa9f229ae41742c92/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/robertcabral/.android/build-cache/7fb423aa7dbc3d4b75dc672db82ebc3267fc93fa/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/robertcabral/.android/build-cache/1e30a55d2fa3943204b8081f0c2244f7b020ca1f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e11e3dda8e3d16785e55c8c2f35ebfc249530db2/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/robertcabral/.android/build-cache/8a62694cc54da990f67437f6f7a794fdd68198b3/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b0f53cb3c5e4a0ed7df7db2d15592e93104b5bdd/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/6b33429f5f8b013a92b6d9d05145e914e6891616/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/robertcabral/.android/build-cache/cd8c555f71a0486d866a5fa83efe6cc637038892/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0a4f71fd613ef88847ecda31fbe859d7f3213ddf/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/robertcabral/.android/build-cache/cf3cd05ef3aab1b8108638a7d3ed09d2fe2554df/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0807646e83eb37f54a425c3fa9f229ae41742c92/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/robertcabral/.android/build-cache/7fb423aa7dbc3d4b75dc672db82ebc3267fc93fa/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/robertcabral/.android/build-cache/1e30a55d2fa3943204b8081f0c2244f7b020ca1f/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e11e3dda8e3d16785e55c8c2f35ebfc249530db2/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/robertcabral/.android/build-cache/8a62694cc54da990f67437f6f7a794fdd68198b3/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.6] /home/robertcabral/.android/build-cache/70a70f821f1c23795dea8711d1dc763ba86c21ee/output/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.6] /home/robertcabral/.android/build-cache/019da288a3387299a1342e6bac41bd2db6c59dce/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/robertcabral/.android/build-cache/019da288a3387299a1342e6bac41bd2db6c59dce/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/robertcabral/.android/build-cache/019da288a3387299a1342e6bac41bd2db6c59dce/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/robertcabral/.android/build-cache/019da288a3387299a1342e6bac41bd2db6c59dce/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.6] /home/robertcabral/.android/build-cache/019da288a3387299a1342e6bac41bd2db6c59dce/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.6] /home/robertcabral/.android/build-cache/1acefb1a8b476959ca0d22979fe9da16d5f32185/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] /home/robertcabral/.android/build-cache/1acefb1a8b476959ca0d22979fe9da16d5f32185/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] /home/robertcabral/.android/build-cache/1acefb1a8b476959ca0d22979fe9da16d5f32185/output/AndroidManifest.xml:20:20-65

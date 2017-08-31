@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/st.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/st.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/iconnot.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/iconnot.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/et.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/et.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/icon_login.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/icon_login.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/s.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/s.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/regresh.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/regresh.png"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/iconenotification.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/iconenotification.png"
+    }
+]

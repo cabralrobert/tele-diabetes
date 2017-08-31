@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.ufc.tele_diabetes">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tele-Diabetes"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activitys.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".utils.TestService" android:enabled="true"/>
+
+        <receiver android:name=".utils.BootCompletedIntentReceiver"
+                  android:enabled="true"
+                  android:exported="true"
+                  android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="BootCompletedIntentReceiver"/>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activitys.CadastroActivity" />
+        <activity android:name=".activitys.UserInformationsActivity" />
+        <activity android:name=".activitys.EditProfileActivity" />
+        <activity
+            android:name=".activitys.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".activitys.UserActivity"
+            android:label="@string/title_activity_user"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

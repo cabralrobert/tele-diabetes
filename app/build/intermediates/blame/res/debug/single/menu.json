@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/menu/menu_user.xml",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/menu/menu_user.xml"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/menu/user.xml",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/menu/user.xml"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/menu/activity_user_drawer.xml"
+    }
+]

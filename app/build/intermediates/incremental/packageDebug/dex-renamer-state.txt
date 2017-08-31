@@ -1,0 +1,7 @@
+#Wed Aug 30 22:56:09 BRT 2017
+base.0=/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_61779357baa24255a2cb9d88ab9b405558c205a8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_819fc53419b758ce9eabbaa67850f210d2225f81/classes.dex
+base.1=/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_819fc53419b758ce9eabbaa67850f210d2225f81
+file.0=/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_61779357baa24255a2cb9d88ab9b405558c205a8/classes.dex

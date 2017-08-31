@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView"><attr format="color" name="view_backgroundColor"/><attr format="color" name="view_borderColor"/><attr format="dimension" name="view_borderWidth"/><attr format="color" name="view_selectedColor"/><attr format="dimension" name="view_shadowRadius"/><attr format="dimension" name="view_shadowDx"/><attr format="dimension" name="view_shadowDy"/><attr format="color" name="view_shadowColor"/><attr format="dimension" name="view_pressedRingWidth"/><attr format="color" name="view_pressedRingColor"/></declare-styleable>
+    <declare-styleable name="CircleImageViewStyle"><attr format="reference" name="circleImageViewDefault"/></declare-styleable>
+    <string name="app_name">CircleImageView</string>
+</resources>

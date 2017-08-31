@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "410624061644",
+    "firebase_url": "https://tele-diabetes.firebaseio.com",
+    "project_id": "tele-diabetes",
+    "storage_bucket": "tele-diabetes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410624061644:android:e81da4d7b1efabd9",
+        "android_client_info": {
+          "package_name": "br.ufc.tele_diabetes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410624061644-4pta8e2vk31b1dr1kk65b7e57jrfqa0b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ufc.tele_diabetes",
+            "certificate_hash": "50bd9c15daf6f2beb7eec84d48bbd011f683c0fb"
+          }
+        },
+        {
+          "client_id": "410624061644-ioogoecl941ph4e1j9ps6cm9uounmnk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq_UpRy4kswmovpBOR8JB3lDQKlJfQbGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410624061644-ioogoecl941ph4e1j9ps6cm9uounmnk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
