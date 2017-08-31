@@ -1,4 +1,4 @@
-#Sun Aug 27 21:59:56 BRT 2017
+#Thu Aug 31 00:34:14 BRT 2017
 base.0=/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
 renamed.0=classes.dex
 file.0=/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

@@ -30,6 +30,7 @@ ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/A
 		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:8:22-63
 application
 ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:10:5-49:19
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e2517bbfe2acb65c24239344acb71284eb1113f2/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b0f53cb3c5e4a0ed7df7db2d15592e93104b5bdd/output/AndroidManifest.xml:26:5-20
@@ -39,7 +40,7 @@ MERGED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabra
 MERGED from [com.jjoe64:graphview:4.2.1] /home/robertcabral/.android/build-cache/44c68ce9ae748d5704c935fceb86c8f073c9cde1/output/AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/robertcabral/.android/build-cache/1e7cf1c62d6716e0c0418bf435dedf39ae85e519/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0a4f71fd613ef88847ecda31fbe859d7f3213ddf/output/AndroidManifest.xml:26:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/robertcabral/.android/build-cache/0a6830443e40d72ceda50bf316f33248fc37381f/output/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/robertcabral/.android/build-cache/e479c54f7b7d9b639d56f9b82d1ee3701bd0f630/output/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:10.2.6] /home/robertcabral/.android/build-cache/e4e9130deff5edce1a342d22f5959334fdd64d8b/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:24:5-28:19
@@ -131,6 +132,7 @@ ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/A
 		ADDED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml:46:13-51
 uses-sdk
 INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e2517bbfe2acb65c24239344acb71284eb1113f2/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b0f53cb3c5e4a0ed7df7db2d15592e93104b5bdd/output/AndroidManifest.xml:20:5-44
@@ -145,7 +147,7 @@ MERGED from [com.google.firebase:firebase-storage-common:10.2.6] /home/robertcab
 MERGED from [com.jjoe64:graphview:4.2.1] /home/robertcabral/.android/build-cache/44c68ce9ae748d5704c935fceb86c8f073c9cde1/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/robertcabral/.android/build-cache/1e7cf1c62d6716e0c0418bf435dedf39ae85e519/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/0a4f71fd613ef88847ecda31fbe859d7f3213ddf/output/AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/robertcabral/.android/build-cache/0a6830443e40d72ceda50bf316f33248fc37381f/output/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/robertcabral/.android/build-cache/e479c54f7b7d9b639d56f9b82d1ee3701bd0f630/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:10.2.6] /home/robertcabral/.android/build-cache/e4e9130deff5edce1a342d22f5959334fdd64d8b/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics:10.2.6] /home/robertcabral/.android/build-cache/649bb68ddb8016bbe24a65560713238424b78738/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.6] /home/robertcabral/.android/build-cache/d42ec89fabfe7e3ec068a5f7f6d5aaf2340628bb/output/AndroidManifest.xml:17:5-43
@@ -168,7 +170,8 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/robertcabra
 		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
 		INJECTED from /home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e2517bbfe2acb65c24239344acb71284eb1113f2/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/robertcabral/.android/build-cache/b0f53cb3c5e4a0ed7df7db2d15592e93104b5bdd/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/6b33429f5f8b013a92b6d9d05145e914e6891616/output/AndroidManifest.xml:22:5-24:41
@@ -181,9 +184,9 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/robertcabr
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e11e3dda8e3d16785e55c8c2f35ebfc249530db2/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/robertcabral/.android/build-cache/8a62694cc54da990f67437f6f7a794fdd68198b3/output/AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e2517bbfe2acb65c24239344acb71284eb1113f2/output/AndroidManifest.xml:24:9-38
 	android:name
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /home/robertcabral/.android/build-cache/e2517bbfe2acb65c24239344acb71284eb1113f2/output/AndroidManifest.xml:23:9-47
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:10.2.6] /home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/AndroidManifest.xml:19:9-172
 	android:exported

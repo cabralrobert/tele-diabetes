@@ -13,12 +13,25 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gráficos"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
 
         <com.jjoe64.graphview.GraphView
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:gravity="center"
@@ -26,17 +39,20 @@
             tools:layout_editor_absoluteY="0dp"
             tools:layout_editor_absoluteX="8dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
 
         <com.jjoe64.graphview.GraphView
-            android:layout_width="350dp"
+            android:layout_width="300dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:gravity="center"
             android:paddingTop="15dp"
             android:id="@+id/grafico2" />
+
+        </RadioGroup>
 
 
         <RadioGroup
@@ -50,6 +66,11 @@
                 android:layout_height="wrap_content"
                 android:text="Sistema e ajuda"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
 
         <ListView
             android:layout_width="match_parent"

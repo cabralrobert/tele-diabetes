@@ -13,16 +13,21 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
+import android.view.animation.AlphaAnimation;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -70,7 +75,7 @@ import br.ufc.tele_diabetes.utils.Utils;
 
 import static android.R.attr.data;
 
-public class UserActivity extends AppCompatActivity {
+public class UserActivity extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener {
 
     FirebaseAuth firebaseAuth;
     LineGraphSeries<DataPoint> series;
@@ -79,14 +84,34 @@ public class UserActivity extends AppCompatActivity {
     DatabaseReference databaseReference;
     User usuario;
     private ProgressDialog progressDialog;
-    Toolbar toolbar;
     File localFile = null;
     ImageView imageUser;
     ArrayList<DadosSensor> tes = new ArrayList<>();
+
+    //tela
+    private static final float PERCENTAGE_TO_SHOW_TITLE_AT_TOOLBAR  = 0.9f;
+    private static final float PERCENTAGE_TO_HIDE_TITLE_DETAILS     = 0.3f;
+    private static final int ALPHA_ANIMATIONS_DURATION              = 200;
+
+    private boolean mIsTheTitleVisible          = false;
+    private boolean mIsTheTitleContainerVisible = true;
+
+    private LinearLayout mTitleContainer;
+    private TextView mTitle;
+    private AppBarLayout mAppBarLayout;
+    private Toolbar mToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user2);
+
+        bindActivity();
+
+        mAppBarLayout.addOnOffsetChangedListener(this);
+
+        mToolbar.inflateMenu(R.menu.menu_user);
+        startAlphaAnimation(mTitle, 0, View.INVISIBLE);
 
         startService(new Intent(UserActivity.this, TestService.class));
 
@@ -113,9 +138,7 @@ public class UserActivity extends AppCompatActivity {
             }
         });
 
-        imageUser = (ImageView)findViewById(R.id.imageUser);
-
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        imageUser = (ImageView)findViewById(R.id.imageuser);
 
         graph = (GraphView)findViewById(R.id.grafico);
         graph2 = (GraphView)findViewById(R.id.grafico2);
@@ -151,8 +174,13 @@ public class UserActivity extends AppCompatActivity {
                         finish();
                         startActivity(new Intent(UserActivity.this, UserInformationsActivity.class));
                     }else {
-                        toolbar.setTitle(usuario.getNome());
-                        setSupportActionBar(toolbar);
+                        TextView tv = (TextView)findViewById(R.id.main_textview_title);
+                        TextView tvEmail = (TextView)findViewById(R.id.email_user_tela);
+                        TextView tvUser = (TextView)findViewById(R.id.nameUserTela);
+                        tv.setText(usuario.getNome());
+                        tvUser.setText(usuario.getNome());
+                        tvEmail.setText(user.getEmail());
+                        Toast.makeText(getApplicationContext(),"Olá, " + usuario.getNome(),Toast.LENGTH_SHORT).show();
                     }
                 }
 
@@ -174,6 +202,7 @@ public class UserActivity extends AppCompatActivity {
                             Log.i("Get", "Get: " + post.getValue());
                         }
                     }
+                    atualizaGrafico();
                 }
 
                 @Override
@@ -208,35 +237,6 @@ public class UserActivity extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception exception) {
                 Toast.makeText(getApplicationContext(), "Erro ao pegas as informações", Toast.LENGTH_LONG).show();
-            }
-        });
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("NewApi")
-            @Override
-            public void onClick(View view) {
-                atualizaGrafico();
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-
-//                Intent i = new Intent(UserActivity.this, UserActivity.class);
-//
-//                Bitmap bp = BitmapFactory.decodeResource(getResources(), R.mipmap.iconnot);
-//
-//                PendingIntent pi = PendingIntent.getActivity(getBaseContext(),1,i,PendingIntent.FLAG_UPDATE_CURRENT);
-//
-//                NotificationCompat.Builder builder = new NotificationCompat.Builder(UserActivity.this)
-//                        .setLargeIcon(bp)
-//                        .setSmallIcon(R.mipmap.iconnot)
-//                        .setContentText(usuario.getNome())
-//                        .setContentTitle("Tele-Diabetes")
-//                        .setContentIntent(pi);
-//
-//                Notification notification = builder.build();
-//                NotificationManager nm = (NotificationManager) UserActivity.this.getSystemService(Context.NOTIFICATION_SERVICE);
-//                nm.notify(1,notification);
-
             }
         });
 
@@ -277,59 +277,15 @@ public class UserActivity extends AppCompatActivity {
 
     private void atualizaGrafico() {
 
-//        series = new LineGraphSeries<DataPoint>();
-//
-//
-//        Thread t = new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                try {
-//
-//                    Socket s = new Socket("192.168.0.101", 5561);
-//
-//                    InputStream i = s.getInputStream();
-//                    Scanner sc = new Scanner(i);
-//                    for(int j = 0; sc.hasNext(); j++){
-//                        if(sc != null) {
-//                            double value = Double.parseDouble(sc.next());
-//                            series.appendData(new DataPoint(j, value), true, 500);
-//                            System.out.println("Valor: " + value);
-//                        }
-//                    }
-//                    Thread.currentThread().sleep(200);
-//                    graph.addSeries(series);
-//                    s.close();
-//
-//                } catch (IOException e){
-//                    System.out.println(e.getMessage());
-//                } catch (ConcurrentModificationException e){
-//                    System.out.println(e.getMessage());
-//                } catch (InterruptedException e){
-//                    System.out.println(e.getMessage());
-//                }
-//            }
-//        });
-//        t.start();
-//    }
 
-        graph.setTitle("Teste");
+        graph.setTitle("Sensor 1");
 
         // set manual X bounds
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setMinY(70);
         graph.getViewport().setMaxY(1000);
 
-//        graph.getViewport().setXAxisBoundsManual(true);
         graph.getViewport().setMinX(0.5);
-//        graph.getViewport().setMaxX(5.5);
-
-
-//        graph.getViewport().setScalable(true);
-//        graph.getViewport().setScalableY(true);
-//        graph.getViewport().setScrollable(true);
-//        graph.getViewport().setScrollableY(true);
-
-//        Log.i("Valor","Valor: " + dt.format(d));
 
         BarGraphSeries<DataPoint> barseries = new BarGraphSeries<>(dados());
 
@@ -375,5 +331,70 @@ public class UserActivity extends AppCompatActivity {
             values[i] = v;
         }
         return values;
+    }
+
+    private void bindActivity() {
+        mToolbar        = (Toolbar) findViewById(R.id.main_toolbar);
+        mTitle          = (TextView) findViewById(R.id.main_textview_title);
+        mTitleContainer = (LinearLayout) findViewById(R.id.main_linearlayout_title);
+        mAppBarLayout   = (AppBarLayout) findViewById(R.id.main_appbar);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_user, menu);
+        return true;
+    }
+
+    @Override
+    public void onOffsetChanged(AppBarLayout appBarLayout, int offset) {
+        int maxScroll = appBarLayout.getTotalScrollRange();
+        float percentage = (float) Math.abs(offset) / (float) maxScroll;
+
+        handleAlphaOnTitle(percentage);
+        handleToolbarTitleVisibility(percentage);
+    }
+
+    private void handleToolbarTitleVisibility(float percentage) {
+        if (percentage >= PERCENTAGE_TO_SHOW_TITLE_AT_TOOLBAR) {
+
+            if(!mIsTheTitleVisible) {
+                startAlphaAnimation(mTitle, ALPHA_ANIMATIONS_DURATION, View.VISIBLE);
+                mIsTheTitleVisible = true;
+            }
+
+        } else {
+
+            if (mIsTheTitleVisible) {
+                startAlphaAnimation(mTitle, ALPHA_ANIMATIONS_DURATION, View.INVISIBLE);
+                mIsTheTitleVisible = false;
+            }
+        }
+    }
+
+    private void handleAlphaOnTitle(float percentage) {
+        if (percentage >= PERCENTAGE_TO_HIDE_TITLE_DETAILS) {
+            if(mIsTheTitleContainerVisible) {
+                startAlphaAnimation(mTitleContainer, ALPHA_ANIMATIONS_DURATION, View.INVISIBLE);
+                mIsTheTitleContainerVisible = false;
+            }
+
+        } else {
+
+            if (!mIsTheTitleContainerVisible) {
+                startAlphaAnimation(mTitleContainer, ALPHA_ANIMATIONS_DURATION, View.VISIBLE);
+                mIsTheTitleContainerVisible = true;
+            }
+        }
+    }
+
+    public static void startAlphaAnimation (View v, long duration, int visibility) {
+        AlphaAnimation alphaAnimation = (visibility == View.VISIBLE)
+                ? new AlphaAnimation(0f, 1f)
+                : new AlphaAnimation(1f, 0f);
+
+        alphaAnimation.setDuration(duration);
+        alphaAnimation.setFillAfter(true);
+        v.startAnimation(alphaAnimation);
     }
 }

@@ -73,6 +73,8 @@
         <item>Entry 3</item>
     </string-array>
 
+    <string name="quila_name2">Teste</string>
+
     <string-array name="list_preference_entry_values">
         <item>1</item>
         <item>2</item>

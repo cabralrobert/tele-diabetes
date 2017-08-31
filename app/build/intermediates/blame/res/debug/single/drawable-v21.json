@@ -8,6 +8,10 @@
         "source": "/home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable-v21/ic_heart_outline_white_24dp.png",
+        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/drawable-v21/ic_heart_outline_white_24dp.png"
+    },
+    {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
         "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/drawable-v21/ic_menu_send.xml"
     },

@@ -44,12 +44,12 @@
         "source": "/home/robertcabral/.android/build-cache/a97659fbf356f9ece8ee6b6d03b74a1fc22af86d/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout/list_icon_layout.xml",
         "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/layout/list_icon_layout.xml"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/layout/abc_screen_content_include.xml"
     },
     {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",

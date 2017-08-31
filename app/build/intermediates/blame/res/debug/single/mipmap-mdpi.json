@@ -30,9 +30,5 @@
     {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/regresh.png",
         "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/regresh.png"
-    },
-    {
-        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/mipmap-mdpi/iconenotification.png",
-        "source": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/src/main/res/mipmap-mdpi/iconenotification.png"
     }
 ]

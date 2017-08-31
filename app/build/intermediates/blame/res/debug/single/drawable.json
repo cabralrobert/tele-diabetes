@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/drawable/notification_tile_bg.xml"
-    },
-    {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
         "source": "/home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -16,16 +16,16 @@
         "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/home/robertcabral/.android/build-cache/16d680a81051affca72c013ae3c158e7d859d317/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/robertcabral/.android/build-cache/b92567dc499c98d7c2b4de8a3e090d5d15499f5b/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/home/robertcabral/AndroidStudioProjects/Tele-Diabetes/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
